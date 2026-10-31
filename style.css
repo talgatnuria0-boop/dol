@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f4f6;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.counter-container {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#counter-value {
+  font-size: 3rem;
+  margin: 0 0 20px 0;
+  color: #1f2937;
+}
+
+.btn-group button {
+  font-size: 1rem;
+  padding: 10px 18px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #3b82f6;
+  color: white;
+  transition: background 0.2s;
+}
+
+.btn-group button:hover {
+  background-color: #2563eb;
+}
+
+#reset-btn {
+  background-color: #9ca3af;
+}
+
+#reset-btn:hover {
+  background-color: #6b7280;
+}
